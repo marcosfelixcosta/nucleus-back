@@ -1,0 +1,23 @@
+
+{ 
+   "type": "mysql", 
+   "host": "nucleus241mncmy-345sql.mysql.dat3abase32.azure.com", 
+   "port": 3306, 
+   "username": "nucleus", 
+   "password": "axzcghhjkn**988120.002546@kp17", 
+   "database": "nucleuddd98778sdb", 
+   "synchronize": true,
+    "logging": false, 
+   "entities": [ 
+      "src/entity/**/*.ts" ], 
+   "migrations": [ "src/migration/**/*.ts" 
+   ], 
+   "subscribers": [ "src/subscriber/**/*.ts" 
+   ], 
+   "cli": { 
+      "entitiesDir":"src/entity", "migrationsDir":"src/migration", "subscribersDir":"src/subscriber"
+   }    
+ }
+
+
+
