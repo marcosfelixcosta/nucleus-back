@@ -6,7 +6,7 @@ export const saveAvaliacao = async (request: Request, response: Response)=> {
   const {/* coloca aqui os campos do entidade de dados - entityAvaliacao */} = request.body;
   const avaliacao = await getRepository(entityAvaliacao).save({
 
-   /* coloca aqui os campos do entidade de dados - entityAvaliacao */
+   /* coloca aqui os campos da entidade de dados - entityAvaliacao */
 
   });
 
