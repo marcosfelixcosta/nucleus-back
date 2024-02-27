@@ -13,7 +13,7 @@ export const Authenticate = async(request: Request, response: Response, next: Ne
 
    try {
      //await jwt.verify(token, process.env.APP_SECRET);
-     await jwt.verify(token, '4486c0f76776e7d6c2fc60299c1e1405');
+     await jwt.verify(token, '4486c0f76776e7d6c2fc60299c18887896ll1405');
      next();
      
    } catch (error) {
