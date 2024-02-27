@@ -1,6 +1,7 @@
 import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn } from 'typeorm';
 
-@Entity()
+
+   @Entity()
 export class entityChamados {
   @PrimaryGeneratedColumn()
   ch_codigo: number;
